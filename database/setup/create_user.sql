@@ -1,0 +1,2 @@
+CREATE ROLE sankutyu WITH LOGIN PASSWORD 'sankutyu';
+CREATE ROLE kongg WITH LOGIN PASSWORD 'kong';

@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>ログインフォーム</h2>
+  <form>
+    <div>
+      <label>ID:<input [(ngModel)]="user.userId" type="text" name="userId" class="form-control"/></label>
+      <label>PASS:<input [(ngModel)]="user.password" type="password" name="password" class="form-control" /></label>
+    </div>
+    <input (click)="login()" type="button" value="ログイン" class="btn btn-primary"/>
+  </form>
+  <p>{{result}}</p>
+</div>
